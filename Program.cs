@@ -78,7 +78,7 @@ class ListRandom {
             }
             curNode = Head;
             bw.Write(Count);
-            while (curNode != null) {;
+            while (curNode != null) {
                 bw.Write(curNode.Data);
                 bw.Write(randId[curNode.Random]);
                 curNode = curNode.Next;
